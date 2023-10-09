@@ -18,7 +18,7 @@ a {
 
 .btn {
     background-color: white;
-    padding: 0.5em;
+    padding: 0.5em 4em;
     color: black;
     border-radius: 2rem;
 }
@@ -34,7 +34,7 @@ header {
     background-color: #0084FD;
 }
 
-.header-container {
+.container {
     width: 80%;
     margin: 0 auto;
 }
@@ -67,15 +67,10 @@ header li {
 
 /* SECTION 1 */
 #info-card {
-    margin: 1rem 0;
+    margin: 3rem 0;
 }
 
-.container {
-    width: 80%;
-    margin: 3rem auto;
-}
-
-#infocard h3 {
+#info-card h3 {
     color: #0084FD;
 }
 
@@ -100,8 +95,7 @@ header li {
 }
 
 .btn-blue {
-    padding: 0.5rem 4rem;
-    background: #0084FD;
+    background-color: #0084FD;
     color: white;
 }
 
@@ -118,7 +112,7 @@ header li {
 
 #st-plane {
     background-color: #9792E4;
-    padding: 1rem;
+    padding: 3rem 0;
     color: white;
 }
 
@@ -130,6 +124,7 @@ header li {
     padding: 1.5rem;
     text-align: center;
     border-radius: 3rem;
+    margin: 3rem 0;
 }
 
 #st-plane h3, em {
@@ -144,6 +139,10 @@ header li {
 }
 
 /* SECTION 3 */
+
+#testimonials {
+    padding-top: 3rem;
+}
 
 .testimonials-head {
     display: flex;
@@ -173,11 +172,136 @@ header li {
     width: 15rem;
     height: 15rem;
     border-radius: 50%;
-    background-image: url(../img/testimonial1.jpg);
     background-size: cover;
     background-position: center;
 }
 
+.img-background-1 {
+    background-image: url(../img/testimonial1.jpg);
+}
+
+.img-background-2 {
+    background-image: url(../img/testimonial2.jpg);
+}
+
+.img-background-3 {
+    background-image: url(../img/testimonial3.jpg);
+}
+
+/* SECTION 4 */
+
+#benefits {
+    background-color: #9792E4;
+    color: white;
+    padding-bottom: 1rem;
+}
+
+#benefits h2 {
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+
+#benefits .cards-item {
+    color: #9792E4;
+}
+
+.box-benefits {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 2rem;
+    margin: 3rem 0;
+}
+
+.title-benefits {
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.btn-purple {
+    background-color: #9792E4 ;
+    color: white;
+}
+
+/* SECTION 5 */
+
+#about-us {
+    margin: 3rem 0;
+}
+
+#about-us .title-benefits, h3 {
+    color: #9792E4;
+}
+
+.box-about-us {
+    display: flex;
+    flex-direction: column;
+}
+
+.img-background-4 {
+    background-image: url(../img/about.jpg);
+    position: relative;
+}
+
+#about-us .fa-quote-left {
+    font-size: 5rem;
+    color: #9792E4;
+    position: absolute;
+    top: 0;
+    right: -1rem;
+}
+
+.fa-linkedin {
+    margin-right: 0.4rem;
+}
+
+.btn-about-us {
+    padding: 0.2em 0.8em;
+}
+
+/* SEZIONE 6 */
+
+#get-started {
+    background-color: #9792E4;
+    color: white;
+    padding: 3rem 0;
+}
+
+.title-start {
+    opacity: 0.5;
+}
+
+#get-started h2 {
+    font-size: 1.7rem;
+}
+
+.free-start {
+    color: #FDC15F;
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.btn-get-started {
+    padding: 1em 6em;
+    color: #9792E4;
+}
+
+/* FINE MAIN */
+
+/* INIZIO FOOTER */
+
+footer {
+    background-color: #333333;
+    padding: 3rem 0;
+    color: white;
+    text-align: center;
+}
+
+footer u {
+    color: #9792E4;
+}
 
 /* HOVER */
 

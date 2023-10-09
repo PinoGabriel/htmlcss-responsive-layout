@@ -32,7 +32,13 @@
 .w-80 { width: 80%; } /* 4/5 */
 .w-100 { width: 100%; }
 
-.h-50 { height: 50%; } /* 1/2 */
+
+.h-30 { height: 30%; } 
+.h-33 { height: 33%; } 
+.h-50 { height: 50%; } 
+.h-66 { height: 66%; } 
+.h-70 { height: 70%; } 
+.h-80 { height: 80%; } 
 
 /*** PADDINGS ***/
 .p-8 { padding: 8px; }
