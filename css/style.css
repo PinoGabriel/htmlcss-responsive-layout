@@ -58,11 +58,14 @@ header li {
 
 .fa-grip-lines {
     color: white;
+    font-size: 2rem;
 }
 
 /* FINE HEADER */
 
 /* INIZIO MAIN */
+
+/* SECTION 1 */
 #info-card {
     margin: 1rem 0;
 }
@@ -111,6 +114,8 @@ header li {
     color: #0084FD;
 }
 
+/* SECTION 2 */
+
 #st-plane {
     background-color: #9792E4;
     padding: 1rem;
@@ -138,7 +143,40 @@ header li {
     padding: 1em;
 }
 
+/* SECTION 3 */
 
+.testimonials-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+#testimonials h2 {
+    color: #9792E4;
+}
+
+.testimonials-cards {
+    background-color: #9792E4;
+    color: white;
+}
+
+.fa-quote-left, .fa-quote-right {
+    padding: 0 0.3rem;
+}
+
+.testimonials-cards img {
+    border-radius: 50%;
+}
+
+.img-plane {
+    background-color: #0084FD;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-image: url(../img/testimonial1.jpg);
+    background-size: cover;
+    background-position: center;
+}
 
 
 /* HOVER */
