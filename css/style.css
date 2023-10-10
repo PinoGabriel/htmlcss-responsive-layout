@@ -21,6 +21,7 @@ a {
     padding: 0.5em 4em;
     color: black;
     border-radius: 2rem;
+    display: inline-block;
 }
 
 .img-item {
@@ -32,6 +33,10 @@ a {
 
 header {
     background-color: #0084FD;
+}
+
+header a {
+    color: white;
 }
 
 .container {
@@ -56,7 +61,7 @@ header li {
     padding: 0 1rem;
 }
 
-.fa-grip-lines {
+.fa-bars {
     color: white;
     font-size: 2rem;
 }
@@ -82,12 +87,21 @@ header li {
 
 .cards {
     background-color: #B5DDFF;
-    padding: 1rem 1rem 0 1rem;
+    padding: 1rem;
     margin-bottom: 1rem;
     border-radius: 1rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+.card-big {
+    background-color: #B5DDFF;
+    padding: 1rem 1rem 0 1rem;
+    margin-bottom: 1rem;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
 }
 
 .cards-item {
@@ -136,6 +150,8 @@ header li {
     border-radius: 50%;
     color: black;
     padding: 1em;
+    width: 3em;
+    height: 3em;
 }
 
 /* SECTION 3 */
@@ -154,9 +170,29 @@ header li {
     color: #9792E4;
 }
 
-.testimonials-cards {
+#testimonials h3 {
+    color: white;
+}
+
+.box-testimonials {
     background-color: #9792E4;
     color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    text-align: center;
+    border-radius: 3rem;
+    margin: 3rem 0;
+}
+
+.img-testimonials {
+    background-color: #0084FD;
+    width: 15rem;
+    height: 15rem;
+    border-radius: 50%;
+    background-size: cover;
+    background-position: center;
 }
 
 .fa-quote-left, .fa-quote-right {
@@ -165,15 +201,6 @@ header li {
 
 .testimonials-cards img {
     border-radius: 50%;
-}
-
-.img-plane {
-    background-color: #0084FD;
-    width: 15rem;
-    height: 15rem;
-    border-radius: 50%;
-    background-size: cover;
-    background-position: center;
 }
 
 .img-background-1 {
@@ -303,6 +330,10 @@ footer u {
     color: #9792E4;
 }
 
+.footer-item {
+    padding-bottom: 4rem;
+}
+
 /* HOVER */
 
 
@@ -318,17 +349,46 @@ footer u {
 
 /* INIZIO MEDIA QUERIES */
 
-@media only screen and (min-width:480px) {
+@media only screen and (min-width:768px) {
 
+    .cards-direction {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .cards {
+        width: calc(33% - 16px);
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    header .h-50 {
+        width: 50%;
+    }
+
+    .card-big {
+        width: calc(66% - 16px);
+        margin-right: 8px;
+        margin-left: 8px;
+    }
+
+    .card-testimonials {
+        width: 70%;
+        padding: 16px;
+    }
+
+    .box-testimonials {
+        flex-direction: row;
+    }
 }
 
-@media only screen and (min-width:768px) {
+@media only screen and (min-width:992px) {
 
     .container {
         width: 90%;
     }
 
-    .fa-grip-lines {
+    .fa-bars {
         display: none;
     }
 
