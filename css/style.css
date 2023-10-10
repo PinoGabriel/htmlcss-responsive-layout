@@ -26,7 +26,6 @@ a {
 
 .img-item {
     width: 100%;
-    height: 100%;
 }
 
 
@@ -370,14 +369,14 @@ footer u {
     }
 
     #card-small-height {
-        min-height: 600px;
+        min-height: 860px;
     }
 
     .card-big {
         width: calc(66% - 16px);
         margin-right: 8px;
         margin-left: 8px;
-        min-height: 600px;
+        min-height: 860px;
     }
 
     .card-testimonials {
@@ -450,15 +449,12 @@ footer u {
         min-height: 460px;
     }
 
-    #h-img-info {
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: flex-end;
-    }
-
     #card-small-height {
         min-height: 460px;
+    }
+
+    .img-item {
+        justify-content: flex-end;
     }
     
     #st-plane .h-50 {
