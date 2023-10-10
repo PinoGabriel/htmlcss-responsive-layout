@@ -220,13 +220,15 @@ header li {
 #benefits {
     background-color: #9792E4;
     color: white;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 #benefits h2 {
     text-align: center;
     padding-top: 3rem;
     font-size: 2rem;
+    width: 80%;
+    margin: 0 auto;
 }
 
 #benefits .cards-item {
@@ -351,6 +353,10 @@ footer u {
 
 @media only screen and (min-width:768px) {
 
+    .container {
+        width: 90%;
+    }
+
     .cards-direction {
         flex-direction: row;
         flex-wrap: wrap;
@@ -362,6 +368,10 @@ footer u {
         margin-left: 8px;
     }
 
+    #card-small-height {
+        min-height: 800px;
+    }
+
     header .h-50 {
         width: 50%;
     }
@@ -370,6 +380,7 @@ footer u {
         width: calc(66% - 16px);
         margin-right: 8px;
         margin-left: 8px;
+        min-height: 800px;
     }
 
     .card-testimonials {
@@ -379,6 +390,46 @@ footer u {
 
     .box-testimonials {
         flex-direction: row;
+    }
+
+    #benefits .container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    #benefits h2 {
+        padding: 32px 0;
+    }
+
+    .card-benefits {
+        width: calc(50% - 16px);
+        margin: 8px;
+    }
+
+    .box-about-us {
+        flex-direction: row;
+    }
+
+    .h-40 {
+        width: 40%;
+        padding: 32px;
+    }
+
+    .h-60 {
+        width: 60%;
+        padding: 32px 60px 0 40px;
+    }
+
+    #get-started .container {
+        width: 70%;
+    }
+
+    #get-started h2 {
+        font-size: 2.7rem;
+    }
+
+    footer .container {
+        width: 60%;
     }
 }
 
