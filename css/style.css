@@ -369,18 +369,14 @@ footer u {
     }
 
     #card-small-height {
-        min-height: 800px;
-    }
-
-    header .h-50 {
-        width: 50%;
+        min-height: 860px;
     }
 
     .card-big {
         width: calc(66% - 16px);
         margin-right: 8px;
         margin-left: 8px;
-        min-height: 800px;
+        min-height: 860px;
     }
 
     .card-testimonials {
@@ -436,7 +432,8 @@ footer u {
 @media only screen and (min-width:992px) {
 
     .container {
-        width: 90%;
+        width: 70%;
+        max-width: 1100px;
     }
 
     .fa-bars {
@@ -445,6 +442,42 @@ footer u {
 
     .nav-item {
         display: inline-block;
+    }
+
+    .card-big {
+        flex-direction: row;
+        min-height: 460px;
+    }
+
+    #card-small-height {
+        min-height: 460px;
+    }
+
+    .img-item {
+        justify-content: flex-end;
+    }
+    
+    #st-plane .h-50 {
+        width: calc(50% - 64px);
+        margin: 32px;
+    }
+
+    .plane-cards {
+        flex-direction: row;
+        display: flex;
+    }
+
+    .card-benefits {
+        width: calc(33% - 16px);
+        margin: 8px;
+    }
+
+    #get-started .container {
+        width: 40%;
+    }
+
+    footer .container {
+        width: 30%;
     }
 }
 
