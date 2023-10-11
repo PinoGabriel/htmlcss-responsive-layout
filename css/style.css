@@ -444,6 +444,15 @@ footer u {
         display: inline-block;
     }
 
+    #info-card .w-100 {
+        width: 50%;
+    }
+
+    #img-bottom {
+        display: flex;
+        align-items: flex-end;
+    }
+
     .card-big {
         flex-direction: row;
         min-height: 460px;
