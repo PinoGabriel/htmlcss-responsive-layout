@@ -53,7 +53,7 @@ header li {
     align-items: center; 
     padding: 1rem;
     color: white;
-    justify-content: flex-end;
+    justify-content: space-between;
 }
 
 .nav-item {
